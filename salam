@@ -1,6 +1,7 @@
-push 123a
+push 123
 push 1
-    push -132
-
+pint
+    push 2
+pint
 pall
 dsklfjasdl     akld jf

@@ -35,10 +35,12 @@ void parser(FILE *fp);
 void ext(stack_t **stack);
 void push_f(stack_t **stack, unsigned int line_number);
 void free_stack(stack_t **stack);
+void pint_f(stack_t **stack, unsigned int line_number);
 
 extern char *line;
 extern char *line;
 extern instruction_t push;
 extern instruction_t pall;
+extern instruction_t pint;
 extern FILE *fp;
 #endif
